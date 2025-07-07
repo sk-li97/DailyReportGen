@@ -1,7 +1,7 @@
 # DailyReportGen
 
 ## Overview
-This Jupyter Notebook (`日报多个时间-单一代码块.ipynb`) generates daily advertising reports from Huawei's Jinghong Kinetic platform. It processes data by merging regio/country and conversion data, filters specific regions (Russia, Southeast Asia, Asia-Pacific, Latin America), aggregates by date, region, and product, calculates CPI (based on conversion data) and ROAS, and outputs a formatted Excel file with raw and styled sheets.
+This Jupyter Notebook (`日报多个时间-单一代码块.ipynb`) generates daily advertising reports from Huawei's Jinghong Kinetic platform. It processes data by merging regio/country and conversion data, filters specific regions (Russia, Southeast Asia, Asia-Pacific, Latin America), aggregates by date, region, and product, calculates CPI (based on conversion data) and ROAS, and outputs a formatted Excel file with raw and styled sheets.由于华为的鲸鸿动能平台非常容易闪退，所以没有采取爬虫的方式，每天更新的文件路径也差距不大，直接用jupyter是我的个人习惯。
 
 ## Features
 - Merges country/region and conversion data.
