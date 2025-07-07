@@ -28,11 +28,6 @@ pip install pandas openpyxl
 python daily_report.py
 ```
 
-## Configuration
-Edit `config.json` to set:
-- Input file paths (`country_file`, `data_file`, `conversion_file`).
-- Output file path (`output_file`).
-- Target regions (`target_regions`).
 
 ## Output
 - Excel file with two sheets:
