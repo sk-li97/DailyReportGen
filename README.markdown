@@ -21,12 +21,43 @@ pip install pandas openpyxl
 ```
 
 ## Usage
-1. Place input Excel files in the specified paths (see `config.json`).
-2. Update `config.json` with correct file paths and target regions.
-3. Run the script:
-```bash
-python daily_report.py
-```
+Usage
+
+
+
+
+
+Place input Excel files in C:\Users\lili.li\Downloads\:
+
+
+
+
+
+区域-国家.xlsx (country/region mapping)
+
+
+
+国家_地区报表_YYYY-MM-DD-YYYY-MM-DD_分日 (5).xlsx (request data)
+
+
+
+国家_地区报表_YYYY-MM-DD-YYYY-MM-DD_分日 (6).xlsx (conversion data)
+
+
+
+Update file paths in the Notebook's code cell (lines ~8-10) to match your data files and date range.
+
+
+
+Update the output file path (line ~124) to C:\Users\lili.li\Desktop\日报\output-多比特-STARTDATE-ENDDATE.xlsx.
+
+
+
+Open 日报多个时间-单一代码块.ipynb in Jupyter Notebook.
+
+
+
+Run all cells to generate the report.
 
 
 ## Output
